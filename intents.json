@@ -1,0 +1,23 @@
+{
+    "intents": [{
+            "tag": "greetings",
+            "pattern": ["hello", "hi", "good day", "greetings", "whatsup"],
+            "responses": ["Hello", "Hey", "What can I do for you?"]
+        },
+        {
+            "tag": "goodbye",
+            "pattern": ["cya", "See you later", "I am leaving", "Have a great day", "See ya!"],
+            "responses": ["Hello", "Hey", "What can I do for you?"]
+        },
+        {
+            "tag": "age",
+            "pattern": ["how old", "how old is Cari", "age?", "how old are you?", "whatsup"],
+            "responses": ["My creator is 25years old", "25years"]
+        },
+        {
+            "tag": "name",
+            "pattern": ["what should I call you", "WHats your name?", "Who are you"],
+            "responses": ["You can call me Ciscero", "Im Ciscero!", "Im Ciscero, the assistant to Cari!"]
+        }
+    ]
+}
